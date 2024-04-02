@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive page </title>
+    
+    <link href="
+https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css
+" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div data-scroll-container="">
+        <section data-scroll-section="">
+            <p>LOGO</p>
+            <span class="lerp-wrap" data-scroll="">
+                <span data-scroll="" data-scroll-delay="0.18" data-scroll-speed="33">m</span>
+                <span data-scroll="" data-scroll-delay="0.14" data-scroll-speed="33">a</span>
+                <span data-scroll="" data-scroll-delay="0.12" data-scroll-speed="33">c</span>
+                <span data-scroll="" data-scroll-delay="0.1" data-scroll-speed="33">o</span>
+                <span data-scroll="" data-scroll-delay="0.08" data-scroll-speed="33">s</span>
+            </span>
+        </section>
+
+        <section data-scroll-section="">
+            
+            <span class="lerp-wrap" data-scroll="">
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.18" data-scroll-speed="33">w</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.14" data-scroll-speed="33">i</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.12" data-scroll-speed="33">n</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.1" data-scroll-speed="33">d</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.08" data-scroll-speed="33">o</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.08" data-scroll-speed="33">w</span>
+            </span>
+        </section>
+
+
+
+        <section data-scroll-section="">
+            
+            <span class="lerp-wrap" data-scroll="">
+                <span data-scroll="" data-scroll-delay="0.18" data-scroll-speed="-2">L</span>
+                <span data-scroll="" data-scroll-delay="0.14" data-scroll-speed="-2">I</span>
+                <span data-scroll="" data-scroll-delay="0.12" data-scroll-speed="-2">N</span>
+                <span data-scroll="" data-scroll-delay="0.1" data-scroll-speed="-2">U</span>
+                <span data-scroll="" data-scroll-delay="0.08" data-scroll-speed="-2">X</span>
+            </span>
+        </section>
+
+
+
+
+        <section data-scroll-section="">
+            
+            <span class="lerp-wrap" data-scroll="">
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.18" data-scroll-speed="-6">C</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.14" data-scroll-speed="-6">H</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.12" data-scroll-speed="-6">E</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.1" data-scroll-speed="-6">E</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.08" data-scroll-speed="-6">K</span>
+                <span data-scroll="" data-scroll-direction="horizontal" data-scroll-delay="0.08" data-scroll-speed="-6">U</span>
+            </span>
+        </section>
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <script>
+         const locoscroll = new LocomotiveScroll({
+            el: document.querySelector("[data-scroll-container]"),
+            smooth: true,
+            smartphone: {
+                smooth: true
+            }
+        });
+    </script>
+</body>
+</html>
